@@ -27,7 +27,6 @@
 		8A2C8F5F1C6BBE3C00846019 /* BugsnagSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2C8F4D1C6BBE3C00846019 /* BugsnagSink.h */; };
 		8A2C8F601C6BBE3C00846019 /* BugsnagSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F4E1C6BBE3C00846019 /* BugsnagSink.m */; };
 		8A2C8F6C1C6BBE9500846019 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C8F6B1C6BBE9500846019 /* SystemConfiguration.framework */; };
-		8A2C8F741C6BBEAD00846019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C8F731C6BBEAD00846019 /* UIKit.framework */; };
 		8A2C8F8F1C6BBFDD00846019 /* BugsnagBreadcrumbsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F8B1C6BBFDD00846019 /* BugsnagBreadcrumbsTest.m */; };
 		8A2C8F901C6BBFDD00846019 /* BugsnagCrashReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F8C1C6BBFDD00846019 /* BugsnagCrashReportTests.m */; };
 		8A2C8F911C6BBFDD00846019 /* BugsnagSinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C8F8D1C6BBFDD00846019 /* BugsnagSinkTests.m */; };
@@ -591,7 +590,6 @@
 				E7433AD11F4F64D900C082D1 /* libz.tbd in Frameworks */,
 				E7433AD01F4F64D400C082D1 /* libc++.tbd in Frameworks */,
 				E7EC041A1F4CC97200C2E9D5 /* Foundation.framework in Frameworks */,
-				8A2C8F741C6BBEAD00846019 /* UIKit.framework in Frameworks */,
 				8A2C8F6C1C6BBE9500846019 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1073,7 +1071,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A2C8F121C6BBD2300846019 /* Build configuration list for PBXProject "Bugsnag" */;
+			buildConfigurationList = 8A2C8F121C6BBD2300846019 /* Build configuration list for PBXProject "Bugsnag-iOS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1352,6 +1350,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1402,6 +1401,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1546,7 +1546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A2C8F121C6BBD2300846019 /* Build configuration list for PBXProject "Bugsnag" */ = {
+		8A2C8F121C6BBD2300846019 /* Build configuration list for PBXProject "Bugsnag-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A2C8F2A1C6BBD2300846019 /* Debug */,
